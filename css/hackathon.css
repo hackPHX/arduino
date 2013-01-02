@@ -2,7 +2,7 @@ body {
 	background-color: transparent; /*bootstrap has this as white*/
 }
 
-html {	
+html {
 width: 100%;
 height: 100%;
 background: url("../img/desk21.jpg") no-repeat center center fixed;
@@ -16,9 +16,34 @@ background-size: cover;
 .row-fluid [class*="span"].arduino {
 	background: url("../img/arduino-top.png") left top no-repeat,url("../img/arduino-bot.png") left bottom no-repeat,url("../img/arduino-center.png") top left repeat-y;
 	background-size: 100%, 100%, 100%;
-	padding: 7em 3em 2em 3em;
+	padding: 7em 3em 4em 3em;
 	min-height: 650px;
 	font-family: 'Cousine', sans-serif;
+}
+
+.row-fluid .span6.offset1.arduino {
+	max-width: 800px;
+}
+
+.thumbnail {
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+a.thumbnail:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.arduino h2 {
+  font-size: 22px;
+}
+
+.arduino .span6 a {
+  display: block;
 }
 
 .arduino-comment{
@@ -31,4 +56,24 @@ color:gray;
 	font-size: 60px;
 	color: #3FA4A8;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sponsors {
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+
+.sponsors h3 {
+	color: #fff;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.info-container {
+	margin-bottom: 115px;
+}
+
+.collapser {
+	cursor: pointer;
 }

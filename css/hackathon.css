@@ -20,7 +20,7 @@ html.desk2 {
 .row-fluid [class*="span"].arduino {
 	background: url("../img/arduino-top.png") left top no-repeat,url("../img/arduino-bot.png") left bottom no-repeat,url("../img/arduino-center.png") top left repeat-y;
 	background-size: 100%, 100%, 100%;
-	padding: 7em 3em 4em 3em;
+	padding: 7em 3em 8em 3em;
 	min-height: 650px;
 	font-family: 'Cousine', sans-serif;
 }
@@ -51,8 +51,30 @@ a.thumbnail:hover {
 }
 
 .arduino-comment{
-color:gray;
+	color:gray;
 }
+
+.arduino-text{
+	color:black;
+}
+.arduino-hilighted-background{
+	background-color:#ffd700;
+}
+.arduino-syntax-highlighting1 {
+	color:#e57500;
+}
+
+.arduino-syntax-highlighting2 {
+	color:#2e7aa9;
+}
+
+.arduino-error-highlighting{
+	color:#ffd700;
+}
+.arduino-errorbar{
+	color:#fe5300;
+}
+
 
 .logo h2{
 	font-family: 'Fugaz One', cursive;
